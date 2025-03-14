@@ -35,7 +35,7 @@ class ItemAdapter(private val items: List<Item>) : RecyclerView.Adapter<ItemAdap
         }
 
         private fun expandItem(view: View, isExpanded: Boolean) {
-            val scale = if (isExpanded) 1f else 0.8f
+            val scale = if (isExpanded) 0.8f else 1f
             view.animate().scaleX(scale).scaleY(scale).setDuration(300).start()
         }
     }

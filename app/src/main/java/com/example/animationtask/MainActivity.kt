@@ -19,7 +19,22 @@ class MainActivity : AppCompatActivity() {
         val items = listOf(
             Item("Item 1"),
             Item("Item 2"),
-            Item("Item 3")
+            Item("Item 3"),
+            Item("Item 4"),
+            Item("Item 5"),
+            Item("Item 6"),
+            Item("Item 7"),
+            Item("Item 8"),
+            Item("Item 9"),
+            Item("Item 10"),
+            Item("Item 11"),
+            Item("Item 12"),
+            Item("Item 13"),
+            Item("Item 14"),
+            Item("Item 15"),
+            Item("Item 16"),
+            Item("Item 17"),
+            Item("Item 18"),
         )
 
         val adapter = ItemAdapter(items)
